@@ -73,3 +73,14 @@ button :hover{
   background-color: #720e9e;
   font-weight: 700;
 }
+
+.digits{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  flex: 1 1 33.333%;
+  max-width: 33.333%;
+  background-color: var(--dark);
+}
