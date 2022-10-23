@@ -17,6 +17,10 @@ function App() {
 
     setCalculate(calculate + value)
 
+    if(!operators.includes(value)){
+      setResult(eval(calculate + value).toString());
+    }
+
   }
 
   const createDigits = () => {
@@ -34,7 +38,7 @@ function App() {
     <div className="App">
       <div className='calculator'>
         <div className='display'>
-          {result ? <span>(0)</span> : ''} {calculate || "0"}
+          {result ? <span>({result})</span> : ''} {calculate || "0"}
         </div>
 
         <div className='operators'>
