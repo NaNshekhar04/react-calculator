@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 
 function App() {
+
+  // Using the {useState} Hook for Updating our State 
+
   const [calculate, setCalculate] = useState("");
   const [result, setResult] = useState("");
+
+  //Updating the Calculated Values in our display !
 
   const operators = ['/', '*', '+', '-', '.'];
 
@@ -13,15 +18,16 @@ function App() {
     ) {
       return;
     }
-
-
     setCalculate(calculate + value)
 
-    if(!operators.includes(value)){
+
+    if (!operators.includes(value)) {
       setResult(eval(calculate + value).toString());
     }
 
   }
+
+  // Creating and Adding Digits to our Display !
 
   const createDigits = () => {
     const digits = [];
@@ -38,14 +44,16 @@ function App() {
     setCalculate(eval(calculate), toString());
   }
 
-  const deleteLast = () =>{
-     if(calculate === ''){
+  // Deleting Digits from the end our Display !
+
+  const deleteLast = () => {
+    if (calculate === '') {
       return;
-     }
+    }
 
-     const value = calculate.slice(0, -1);
+    const value = calculate.slice(0, -1);
 
-     setCalculate(value);
+    setCalculate(value);
   }
 
 
