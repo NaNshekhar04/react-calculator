@@ -60,5 +60,16 @@ button{
 }
 
 button :hover{
-  opacity: 0.9W;
+  opacity: 0.9;
+}
+
+
+.operators {
+  display: flex;
+}
+
+.operators button {
+  flex: 1 1 0%;
+  background-color: #720e9e;
+  font-weight: 700;
 }
