@@ -1,3 +1,53 @@
+# CALCULATOR VIA REACTJS 🧮
+
+### 1. CALCULATOR HOMESCREEN !
+
+
+![Screenshot (158)](https://user-images.githubusercontent.com/110991877/198865104-2248f388-ff6d-4e95-b3b1-04f8f63973e9.png)
+
+
+### 2. PERFORMING ADDITION OPERATION !
+
+
+![Screenshot (154)](https://user-images.githubusercontent.com/110991877/198865152-2c960030-b64c-4d12-ae50-977a1c669b42.png)
+
+
+### 3. PERFFORMING SUBSTRACTION OPERATION !
+
+
+![Screenshot (155)](https://user-images.githubusercontent.com/110991877/198865168-5a25763f-8b3e-4cb4-833f-0658fc6e3c5d.png)
+
+
+### 4. PERFORMING MULTIPLICATION OPERATION !
+
+
+![Screenshot (156)](https://user-images.githubusercontent.com/110991877/198865192-25750294-25c9-4b5f-9434-9596e0e77c88.png)
+
+
+### 5. PERFORMING DIVIDING OPERATION !
+
+
+![Screenshot (157)](https://user-images.githubusercontent.com/110991877/198865223-6c7ca7ac-d4c7-4ffb-ae39-e6dc19b2eb04.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
