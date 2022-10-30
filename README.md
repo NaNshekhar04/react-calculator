@@ -12,7 +12,7 @@
 ![Screenshot (154)](https://user-images.githubusercontent.com/110991877/198865152-2c960030-b64c-4d12-ae50-977a1c669b42.png)
 
 
-### 3. PERFFORMING SUBSTRACTION OPERATION !
+### 3. PERFORMING SUBSTRACTION OPERATION !
 
 
 ![Screenshot (155)](https://user-images.githubusercontent.com/110991877/198865168-5a25763f-8b3e-4cb4-833f-0658fc6e3c5d.png)
